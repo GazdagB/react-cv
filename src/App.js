@@ -19,7 +19,7 @@ library.add(faGithub,faSquareInstagram,faTwitter,faYoutube);
 function App() {
 
   return (
-    <Router>
+    <Router basename='/react-cv'>
       {/*Header*/}
       <header>
         <nav className='navbar'>
