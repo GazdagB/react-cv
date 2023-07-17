@@ -24,7 +24,7 @@ function App() {
       <header>
         <nav className='navbar'>
 
-          <Link to={"/"}>
+          <Link to={"/react-cv/"}>
           <img className="navbar__logo" src={logo} alt=""/>
           </Link>
             
@@ -33,26 +33,26 @@ function App() {
         <ul className='navbar__list'>
 
             <li>
-              <Link className='navbar__list__item' to={"/"} >
+              <Link className='navbar__list__item' to={"/react-cv/"} >
               Home
               </Link>
             </li>
 
             <li>
-              <Link className='navbar__list__item' to={"/about"} >
+              <Link className='navbar__list__item' to={"react-cv/about"} >
                 About
               </Link>
             </li>
 
             <li>
-              <Link className='navbar__list__item' to={"/work"} >
+              <Link className='navbar__list__item' to={"react-cv/work"} >
                 Work
                 </Link>
             </li>
 
             <li>
               <Link 
-              className='navbar__list__item' to={"/contact"} >
+              className='navbar__list__item' to={"react-cv/contact"} >
                 Contact
               </Link>
             </li>
@@ -82,7 +82,7 @@ function App() {
         </nav>
       </header>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/react-cv/" element={<Home />} />
       </Routes>
       <footer>
       <p>© 2023 The Code Designer</p>
