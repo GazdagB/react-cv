@@ -23,7 +23,10 @@ const Home = () => {
             I'm a <span className="home__title">Frontend Developer</span> & <span className="home__title">Graphic Designer</span>
         </h2>
         <div className="home__left__cta">
-            <button className='home__left__button'>About me..</button>
+            <Link to={"./about"}>
+            <button className='home__left__button' >About me..</button>
+            </Link>
+            
             <Link className='home__left__cta__link' to={"./work"}>See My Work <FontAwesomeIcon icon={faArrowUp} className='faArrowUp' /></Link>
         </div>
         </div>
