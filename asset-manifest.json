@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-cv/static/css/main.0fa2004e.css",
+    "main.js": "/react-cv/static/js/main.6f349205.js",
+    "static/media/memoji.png": "/react-cv/static/media/memoji.6c0dbd8764d53f385bec.png",
+    "static/media/theCodeDesigner.png": "/react-cv/static/media/theCodeDesigner.7d9c25e73fe92dac43a6.png",
+    "index.html": "/react-cv/index.html",
+    "main.0fa2004e.css.map": "/react-cv/static/css/main.0fa2004e.css.map",
+    "main.6f349205.js.map": "/react-cv/static/js/main.6f349205.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fa2004e.css",
+    "static/js/main.6f349205.js"
+  ]
+}
