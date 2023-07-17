@@ -19,7 +19,7 @@ library.add(faGithub,faSquareInstagram,faTwitter,faYoutube);
 function App() {
 
   return (
-    <Router basename='/'>
+    <Router>
       {/*Header*/}
       <header>
         <nav className='navbar'>
