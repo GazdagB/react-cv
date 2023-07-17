@@ -19,7 +19,7 @@ library.add(faGithub,faSquareInstagram,faTwitter,faYoutube);
 function App() {
 
   return (
-    <Router basename='/react-cv'>
+    <Router basename='/'>
       {/*Header*/}
       <header>
         <nav className='navbar'>
@@ -82,7 +82,7 @@ function App() {
         </nav>
       </header>
       <Routes>
-        <Route path="/react-cv/" element={<Home />} />
+        <Route path="/" element={<Home />} />
       </Routes>
       <footer>
       <p>© 2023 The Code Designer</p>
