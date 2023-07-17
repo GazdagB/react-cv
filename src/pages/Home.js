@@ -2,6 +2,7 @@ import React from 'react'
 import memoji from '../images/memoji.png'
 import './Home.css'
 import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 //font awesome imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -9,6 +10,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
+
+    const navigate = useNavigate();
+
   return (
     <div className='home'>
         <div className='home__left'>
@@ -23,9 +27,8 @@ const Home = () => {
             I'm a <span className="home__title">Frontend Developer</span> & <span className="home__title">Graphic Designer</span>
         </h2>
         <div className="home__left__cta">
-            <Link to={"./about"}>
-            <button className='home__left__button' >About me..</button>
-            </Link>
+            <button onClick={()=> navigate("./about")} className='home__left__button' >About me..</button>
+            
             
             <Link className='home__left__cta__link' to={"./work"}>See My Work <FontAwesomeIcon icon={faArrowUp} className='faArrowUp' /></Link>
         </div>
